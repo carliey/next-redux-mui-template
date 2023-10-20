@@ -1,13 +1,16 @@
 /* Components */
 
+import { Box, Typography } from "@mui/material";
+
 export default function IndexPage() {
   return (
-    <div>
+    <Box>
       <h1>Index page</h1>
-    </div>
+      <Typography variant="h1">hello world</Typography>
+    </Box>
   );
 }
 
 export const metadata = {
-  title: "Redux Toolkit",
+  title: "Redux Toolkit MUI",
 };
